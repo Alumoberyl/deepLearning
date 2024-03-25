@@ -36,4 +36,6 @@
              [8, 9]]))
    ```
 - ***torch.squeeze(input, dim=None)***
-  - 压缩为1的dimension
+  - 压缩为1的dimension 
+- ***torch.stack(tensors, dim=0, *, out=None)***
+  - 传入一个张量列表把他们拼在一起shape (3,2)*2 -> (2,3,2)
