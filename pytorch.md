@@ -39,3 +39,18 @@
   - 压缩为1的dimension 
 - ***torch.stack(tensors, dim=0, *, out=None)***
   - 传入一个张量列表把他们拼在一起shape (3,2)*2 -> (2,3,2)
+- ***torch.take(input, index)***
+  - 展平成一维张量取对应index的值
+- ***torch.tile(input, dims)***
+  - 复制扩展
+```python
+  x = torch.tensor([1, 2, 3])
+  x.tile((2,))
+    tensor([1, 2, 3, 1, 2, 3])
+  y = torch.tensor([[1, 2], [3, 4]])
+  torch.tile(y, (2, 2))
+    tensor([[1, 2, 1, 2],
+        [3, 4, 3, 4],
+        [1, 2, 1, 2],
+        [3, 4, 3, 4]])
+```
