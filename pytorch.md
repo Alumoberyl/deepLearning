@@ -35,3 +35,5 @@
              [6, 7],
              [8, 9]]))
    ```
+- ***torch.squeeze(input, dim=None)***
+  - 压缩为1的dimension
