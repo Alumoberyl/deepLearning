@@ -1,5 +1,5 @@
 # 函数
-- *torch.gather(input, dim, index)*
+- ***torch.gather(input, dim, index)***
   - out[i][j][k] = input[index[i][j][k]][j][k]  # if dim == 0
   - out[i][j][k] = input[i][index[i][j][k]][k]  # if dim == 1
   - out[i][j][k] = input[i][j][index[i][j][k]]  # if dim == 2
@@ -12,9 +12,9 @@
       ])
   ```
   - dim指示被替换的维度，output被替换维度下标填入*t的数值*，剩余的维度下标填入t的下标的下标
-- *torch.chunk(input, chunks, dim=0)*
+- ***torch.chunk(input, chunks, dim=0)***
   - 按照chunks分块
-- *torch.split(tensor, split_size_or_sections, dim=0)*
+- ***torch.split(tensor, split_size_or_sections, dim=0)***
   - 按照size分块或者按照list分块
   - ```python
     tensor([[0, 1],
