@@ -73,3 +73,4 @@
                            [7, 8, 9]]))
   (tensor([1, 2, 3]), tensor([4, 5, 6]), tensor([7, 8, 9]))
 ```
+- ***torch.where(condition, input, other, *, out=None)***
