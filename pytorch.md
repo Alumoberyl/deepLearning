@@ -77,7 +77,7 @@
   - 和三元运算符一样 [条件]?是:否
 - ***torch.manual_seed(seed)***
   - 手动设置种子使得初始条件一致
-- ***torch.bernoulli(input, *, generator=None, out=None)  torch.normal(mean, std, *, generator=None, out=None)***
+- ***torch.bernoulli(input, , generator=None, out=None)  torch.normal(mean, std, , generator=None, out=None)***
   - 伯努利分布、正态分布
 - ***torch.rand()  randint() randn()***
   - 随即张量
