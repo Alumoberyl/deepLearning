@@ -66,3 +66,10 @@
         [-0.9893,  0.7299],
         [ 0.5809,  0.4942]])
 ```
+- ***torch.unbind(input, dim=0)***
+```python
+  torch.unbind(torch.tensor([[1, 2, 3],
+                           [4, 5, 6],
+                           [7, 8, 9]]))
+  (tensor([1, 2, 3]), tensor([4, 5, 6]), tensor([7, 8, 9]))
+```
