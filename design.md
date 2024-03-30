@@ -2,8 +2,7 @@
 ## DEAP
   > https://www.eecs.qmul.ac.uk/mmv/datasets/deap/
 ## COGLOAD
-  > https://github.com/MartinGjoreski/martingjoreski.github.io/blob/master/files/
-CogDatasets.rar
+  > https://github.com/MartinGjoreski/martingjoreski.github.io/blob/master/files/CogDatasets.rar
 ## MOCAS
   > https://polytechnic.purdue.edu/ahmrs/mocas-dataset
 ## WESAD
