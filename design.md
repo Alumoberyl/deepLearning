@@ -1,6 +1,10 @@
 # 数据集
 ## DEAP
   > https://www.eecs.qmul.ac.uk/mmv/datasets/deap/
+### 数据维度
+|Array name|Array shape|Array contents|
+|data|40 x 40 x 8064|video/trial x channel x data|
+|labels|40 x 4|video/trial x label (valence, arousal, dominance, liking)|
 ## COGLOAD
   > https://github.com/MartinGjoreski/martingjoreski.github.io/blob/master/files/CogDatasets.rar
 ## MOCAS
