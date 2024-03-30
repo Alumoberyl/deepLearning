@@ -17,11 +17,8 @@ labels|40 x 4|40材料xlabel(valence,arousal,dominance,liking)
 ## WESAD
   > https://ubicomp.eti.uni-siegen.de/home/datasets/icmi18/
 # 待选数据集
-<div>
   <img src="/datasets.jpg" width="800" /> 
-</div align=center>
 # 设计思路 
 ## 1. 样本为1个人、1首歌、2秒、128Hz、c通道  
   (1,1,2,128,c)：1个人1首歌60/2=30个样本->1个人40 * 30=1200个样本
   (256,32)进行一次transformer 也就是256个1 * 32长度的token进行注意力计算
-## 2. 
