@@ -2,9 +2,10 @@
 ## DEAP
   > https://www.eecs.qmul.ac.uk/mmv/datasets/deap/
 ### 数据维度
-|Array name|Array shape|Array contents|
-|data|40 x 40 x 8064|video/trial x channel x data|
-|labels|40 x 4|video/trial x label (valence, arousal, dominance, liking)|
+Array name|Array shape|Array contents
+---|---|---
+data|40 x 40 x 8064|40材料x(32EEG+2EOG+2EMG+1GSR+1呼吸率+1Plethysmograph+1温度)x(128Hzx63s)
+labels|40 x 4|40材料xlabel(valence,arousal,dominance,liking)
 ## COGLOAD
   > https://github.com/MartinGjoreski/martingjoreski.github.io/blob/master/files/CogDatasets.rar
 ## MOCAS
