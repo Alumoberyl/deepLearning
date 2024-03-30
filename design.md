@@ -6,6 +6,10 @@ Array name|Array shape|Array contents
 ---|---|---
 data|40 x 40 x 8064|40材料x(32EEG+2EOG+2EMG+1GSR+1呼吸率+1Plethysmograph+1温度)x(128Hzx63s)
 labels|40 x 4|40材料xlabel(valence,arousal,dominance,liking)
+> GSR: galvanic skin response 皮肤电反应
+> hEOG/vEOG: electrooculogram 眼电图,Eye Blink影响眼电图
+> zEMG: Zygomaticus Major EMG 颧大肌肌电图
+> tEMG: Trapezius EMG 斜方肌肌电图
 ## COGLOAD
   > https://github.com/MartinGjoreski/martingjoreski.github.io/blob/master/files/CogDatasets.rar
 ## MOCAS
