@@ -16,6 +16,7 @@ labels|40 x 4|40材料xlabel(valence,arousal,dominance,liking)
   > https://polytechnic.purdue.edu/ahmrs/mocas-dataset
 ## WESAD
   > https://ubicomp.eti.uni-siegen.de/home/datasets/icmi18/
+# 待选数据集
 # 设计思路
 ## 1. 样本为1个人、1首歌、2秒、128Hz、c通道  
   (1,1,2,128,c)：1个人1首歌60/2=30个样本->1个人40 * 30=1200个样本
