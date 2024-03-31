@@ -16,18 +16,9 @@
   - 按照chunks分块
 - ***torch.split(tensor, split_size_or_sections, dim=0)***
   - 按照size分块或者按照list分块
-  - ```python
-    tensor([[0, 1],
-        [2, 3],
-        [4, 5],
-        [6, 7],
-        [8, 9]])
-    torch.split(a, 2)
-      (tensor([[0, 1],
-         [2, 3]]),
-       tensor([[4, 5],
+  - ```python([[4, 5],
          [6, 7]]),
-       tensor([[8, 9]]))
+       tensor([[8, 9]])
     torch.split(a, [1, 4])
       (tensor([[0, 1]]),
        tensor([[2, 3],
@@ -81,3 +72,12 @@
   - 伯努利分布、正态分布
 - ***torch.rand()  randint() randn()***
   - 随即张量
+    tensor([[0, 1],
+        [2, 3],
+        [4, 5],
+        [6, 7],
+        [8, 9]])
+    torch.split(a, 2)
+      (tensor([[0, 1],
+         [2, 3]]),
+       tensor)
