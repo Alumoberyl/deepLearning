@@ -13,7 +13,7 @@ labels|40 x 4|40材料xlabel(valence,arousal,dominance,liking)
 ## COGLOAD (不好使用)
   > https://github.com/MartinGjoreski/martingjoreski.github.io/blob/master/files/CogDatasets.rar
 ## MOCAS
-> https://polytechnic.purdue.edu/ahmrs/mocas-dataset
+  > https://polytechnic.purdue.edu/ahmrs/mocas-dataset
 > EEG
 > EEG_POW(EEG band powers)
 > EDA or GSR
