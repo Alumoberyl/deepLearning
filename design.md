@@ -26,6 +26,7 @@ labels|40 x 4|40材料xlabel(valence,arousal,dominance,liking)
 
 # 实验尝试
 ## Pairwise
+### MOSEI数据集 对齐结果
   <img src="/result1.png" width="800" />
 
 # 设计思路
