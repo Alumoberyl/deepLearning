@@ -24,6 +24,10 @@ labels|40 x 4|40材料xlabel(valence,arousal,dominance,liking)
 # 待选数据集
   <img src="/datasets.jpg" width="800" /> 
 
+# 实验尝试
+## Pairwise
+  <img src="/result1.png" width="800" />
+
 # 设计思路
 ## 1. DEAP数据集
 ### 可以结合CNN进行一定的特征提取降低数据维度
