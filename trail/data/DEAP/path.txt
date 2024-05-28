@@ -1,0 +1,5 @@
+/home/ns/Code/trail/data/DEAP/s01.mat
+/home/ns/Code/trail/data/DEAP/s02.mat
+/home/ns/Code/trail/data/DEAP/s03.mat
+/home/ns/Code/trail/data/DEAP/s04.mat
+/home/ns/Code/trail/data/DEAP/s05.mat
